@@ -1,0 +1,60 @@
+Faça um programa que lê da entrada padrão uma frase de até 100 caracteres. Em seguida, substitua os caracteres numéricos pelo caractere * e os caracteres alfabéticos minúsculos (exceto o ç e os acentuados) pelo caractere _. 
+
+Para fazer a substituição leia cada um dos caracteres até o final da frase, ou até encontrar o caractere @. Quando o caractere @ for encontrado, a frase deve ser "quebrada" e a leitura encerrada. Caso não exista o @ na frase, a leitura deve ser realizada até encontrar o final da frase.
+
+Apresente na saída padrão:
+
+A frase após as substituições e a quebra (quando ocorrer);
+O total de caracteres numéricos substituídos;
+O total de caracteres alfabéticos substituídos.
+Visite a Aula de Strings para consultar a tabela ASCII disponível lá (slide 4), ela pode auxiliar na solução.
+
+For example:
+
+Input	Result
+A COVID-19 é uma doença infecciosa causada pelo novo coronavírus (SARS-CoV-2).
+A COVID-** é ___ ____ç_ __________ _______ ____ ____ _______í___ (SARS-C_V-*).
+Total numericos substituidos: 3
+Total alfabeticos substituidos: 44
+Eu nasci em 1979.
+E_ _____ __ ****.
+Total numericos substituidos: 4
+Total alfabeticos substituidos: 8
+Comprei uma Ferrari 348 TS 1990 por R$ 1.099.000,00.
+C______ ___ F______ *** TS **** ___ R$ *.***.***,**.
+Total numericos substituidos: 16
+Total alfabeticos substituidos: 18
+emailpessoal1985@gmail.com
+____________****
+Total numericos substituidos: 4
+Total alfabeticos substituidos: 12
+Answer:(penalty regime: 0 %)
+
+
+
+======================================================================================================
+
+
+Faça um programa que lê da entrada padrão um inteiro N que corresponde ao tamanho da matriz. Em seguida, o programa deverá ler uma matriz quadrada, M, de tamanho N x N. Criar um vetor de N posições (este guardará as somas). Em seguida,  armazene o somatório dos elementos de cada coluna da matriz no respectivo índice do vetor (não esqueça de zerar todas as posições do vetor antes de armazenar os somatórios). A seguir, multiplique o primeiro elemento do vetor soma com o primeiro elemento da diagonal principal da matriz, em seguida multiplique o segundo elemento do vetor soma com o segundo elemento da diagonal principal da matriz e assim sucessivamente. Exiba os resultados na saída padrão conforme o exemplo abaixo:
+
+
+For example:
+
+Input	Result
+3
+1 2 3 4 5 6 7 8 9
+1 2 3
+4 5 6
+7 8 9
+Soma da coluna 0 = 12
+Soma da coluna 1 = 15
+Soma da coluna 2 = 18
+Multiplica coluna 0 = 12
+Multiplica coluna 1 = 75
+Multiplica coluna 2 = 162
+Answer:(penalty regime: 0 %)
+
+
+
+
+
